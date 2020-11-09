@@ -32,3 +32,6 @@ TARGET_PRODUCT_PROP := $(LOCAL_PATH)/product.prop
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/apollo/apollo-vendor.mk)
+
+# SafetyNet
+PRODUCT_SAFETYNET_MODEL_HACK := true
