@@ -1,8 +1,13 @@
 Copyright (C) 2020 - Carlos Ayrton López Arroyo
 
-Copyright (C) 2020 - KONA-DEVS
-
 Device configuration for Pocophone f2 pro (lmi)
+
+## Read before using for build Android Systems
+
+- The device tree depends on kernel source, which can be find here: [kernel_xiaomi_sm8250](https://github.com/KONA-DEVS/kernel_xiaomi_sm8250).
+- Please use vendor/lmi_user_defconfig in order to build kernel for QCOM SM8250 AArch64.
+- Vendor can be find here [vendor_xiaomi_lmi](https://github.com/Official-Ayrton990/vendor_xiaomi_lmi).
+- Please be free to use this software following GPLv3, otherwise not respecting copyright and ignoring the GPLv3 will have legal consecuences.
 
 ## Device specifications
 
