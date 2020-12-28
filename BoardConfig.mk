@@ -112,11 +112,7 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ARCH := arm64
 ifeq ($(TARGET_USES_PREBUILT_KERNEL), true)
-  TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
-  TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
-  BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-  BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt
-  BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
+-include device/xiaomi/apollopro-kernel/BoardConfigKernel.mk
 else
   TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true

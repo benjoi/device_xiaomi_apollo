@@ -9,6 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Kernel
+TARGET_USES_PREBUILT_KERNEL := true
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -168,3 +171,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 BOARD_BUILD_PRODUCT_IMAGE := true
 
+# Kernel
+NEED_KERNEL_MODULE_VENDOR_OVERLAY := true
+ifeq ($(TARGET_USES_PREBUILT_KERNEL), true)
+$(call inherit-product, device/xiaomi/apollopro-kernel/kernel.mk)
+endif
