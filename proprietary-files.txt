@@ -1,11 +1,58 @@
-# All blobs below are extracted from 
+# All blobs below are extracted - from Redmi apollo_global V12.1.5.0.RJDEUXM version, unless pinned
 
-# ADSP-Modules
+# ADSP modules
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
+vendor/lib/rfsa/adsp/libcalculator_domains_skel.so
+vendor/lib/rfsa/adsp/libcalculator_skel.so
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so
+vendor/lib/rfsa/adsp/libcvpdsp_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libfrc_mobilenet.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
+vendor/lib/rfsa/adsp/libmobilenet_dsp.so
+vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
+vendor/lib/rfsa/adsp/libremosaichvx_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin
+vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
 vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
-vendor/lib/rfsa/adsp/misound_res.bin
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
+
+# Audio libraries
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libshoebox.so
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libadsprpc.so
+vendor/lib/libaudcal.so
+vendor/lib/libqtigef.so
+vendor/lib/libssrec.so
+vendor/lib64/libadsprpc.so
 
 # Audio-Hardware
 vendor/lib/vndk/libxlog.so
@@ -29,27 +76,19 @@ vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 
-# Bluetooth
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/audio.bluetooth.default.so
-vendor/lib64/hw/audio.bluetooth_qti.default.so
-vendor/lib64/libbluetooth_audio_session.so
-vendor/lib64/libbluetooth_audio_session_qti.so
-
 # Camera
-vendor/lib64/libgui_vendor.so
-vendor/lib64/libcamxexternalformatutils.so
-vendor/lib64/libcamximageformatutils.so
-vendor/lib64/libcamxncs.so
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/camera.xiaomi.so
-vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libgui_vendor.so
+system/system/lib/vendor.xiaomi.hardware.campostproc@1.0.so
+system/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+vendor/lib64/libarcdualcamsat.so
+vendor/lib64/libnanopb.so
+vendor/lib/libos.so
+vendor/lib/libofflinelog.so
+vendor/lib/libnanopb.so
+vendor/lib/libsynx.so
+vendor/lib/libthreadutils.so
+vendor/lib64/libxmi_hdr_checker.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
-vendor/etc/camera/eisoverridesettings.txt
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/camera/com.qti.actuator.apollo_dw9800.so
 vendor/lib/camera/com.qti.eeprom.apollo_ofilm_s5k3t2_gt24p64.so
 vendor/lib/camera/com.qti.eeprom.apollo_ofilm_s5k5e9yx04_gt24p64.so
@@ -64,6 +103,7 @@ vendor/lib/camera/com.qti.sensor.apollo_imx682.so
 vendor/lib/camera/com.qti.sensor.apollo_s5k3t2.so
 vendor/lib/camera/com.qti.sensor.apollo_s5khmx.so
 vendor/lib/camera/com.qti.sensor.imx563.so
+vendor/lib/camera/com.qti.sensormodule.apollo_semco_s5khmx_wide_global.bin
 vendor/lib/camera/com.qti.sensormodule.apollo_ofilm_ov13b10_ultra_wide.bin
 vendor/lib/camera/com.qti.sensormodule.apollo_ofilm_s5k3t2_front.bin
 vendor/lib/camera/com.qti.sensormodule.apollo_ofilm_s5k5e9yx04_macro.bin
@@ -78,12 +118,10 @@ vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
 vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/libcamerapostproc.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcapiv2svarnn.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libmegface.so
 vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libsnsapi.so
@@ -107,6 +145,9 @@ vendor/lib64/camera/com.qti.sensor.apollo_imx682.so
 vendor/lib64/camera/com.qti.sensor.apollo_s5k3t2.so
 vendor/lib64/camera/com.qti.sensor.apollo_s5khmx.so
 vendor/lib64/camera/com.qti.sensor.imx563.so
+vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_s5k3t2_front.bin
+vendor/lib64/camera/com.qti.sensormodule.apollo_semco_s5khmx_wide_global.bin
+vendor/lib64/camera/com.qti.sensormodule.apollo_sunny_imx682_wide_cn.bin
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_ov13b10_ultra_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.apollo_ofilm_s5k5e9yx04_macro.bin
 vendor/lib64/camera/com.qti.tuned.apollo_semco_s5khmx_wide.bin
@@ -120,7 +161,6 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/com.xiaomi.plugin.mibokeh.so
-vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/com.qti.feature2.anchorsync.so
@@ -156,20 +196,13 @@ vendor/lib64/libcapiv2vop.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
-vendor/lib64/libmegface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
-vendor/lib64/libmialgoengine.so
 vendor/lib64/libchilog.so
-vendor/lib64/libcvp_common.so
-vendor/lib64/libcvp2_hfi.so
-vendor/lib64/libcvp2.so
 vendor/lib64/libdng_sdk2vendor.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
-vendor/lib64/libgui_vendor.so
 vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libmegface.so	
-vendor/lib64/libMegviiFacepp-0.5.2.so	
+vendor/lib64/libmegface.so
+vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libMIAIHDRhvx_interface.so
@@ -195,49 +228,25 @@ vendor/lib64/libsnpe_dsp_domains.so
 vendor/lib64/libsnpe_dsp_domains_system.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
 vendor/lib64/libsnpe_dsp_domains_v2_system.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libsymphony-cpu.so
-vendor/lib64/libtriplecam_optical_zoom_control.so
-vendor/lib64/libtriplecam_video_optical_zoom.so
-vendor/lib64/libvidhance.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
-vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libst_soft_isp_calc_exposure_shared.so
 vendor/lib64/libst_soft_isp_shared.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libvideoBokeh.so
 vendor/lib64/libvideofilter_only.so
 vendor/lib64/libxmi_high_dynamic_range.so
-vendor/lib64/libsymphony-cpu.so	
-vendor/lib64/libtriplecam_optical_zoom_control.so	
-vendor/lib64/libtriplecam_video_optical_zoom.so	
-vendor/lib64/libvidhance.so	
-
-# Camera-camerax	
-vendor/lib64/libcamxexternalformatutils.so	
-vendor/lib64/libcamxfacialfeatures.so	
-vendor/lib64/libcamxfdalgo.so	
-vendor/lib64/libcamxfdengine.so	
-vendor/lib64/libcamxifestriping.so	
-vendor/lib64/libcamximageformatutils.so	
-vendor/lib64/libcamxncs.so	
-vendor/lib64/libcamxstatscore.so	
-vendor/lib64/libcamxswprocessalgo.so	
-vendor/lib64/libcamxtintlessalgo.so
+vendor/lib64/libsymphony-cpu.so
+vendor/lib64/libtriplecam_optical_zoom_control.so
+vendor/lib64/libtriplecam_video_optical_zoom.so
+vendor/lib64/libvidhance.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera-arcsoft
 vendor/lib64/libarcsoft_beautyshot.so
@@ -255,43 +264,6 @@ vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_superportrait.so
 vendor/lib64/libarcsoft_super_night_raw.so
-vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
-vendor/lib/camera/components/com.qti.camx.chiiqutils.so
-vendor/lib/camera/components/com.qti.eisv2.so
-vendor/lib/camera/components/com.qti.eisv3.so
-vendor/lib/camera/components/com.qti.hvx.addconstant.so
-vendor/lib/camera/components/com.qti.hvx.binning.so
-vendor/lib/camera/components/com.qti.node.customhwnode.so
-vendor/lib/camera/components/com.qti.node.depth.so
-vendor/lib/camera/components/com.qti.node.dummyrtb.so
-vendor/lib/camera/components/com.qti.node.dummysat.so
-vendor/lib/camera/components/com.qti.node.eisv2.so
-vendor/lib/camera/components/com.qti.node.eisv3.so
-vendor/lib/camera/components/com.qti.node.fcv.so
-vendor/lib/camera/components/com.qti.node.gpu.so
-vendor/lib/camera/components/com.qti.node.memcpy.so
-vendor/lib/camera/components/com.qti.node.softisppost.so
-vendor/lib/camera/components/com.qti.node.stich.so
-vendor/lib/camera/components/com.qti.node.swregistration.so
-vendor/lib/camera/components/com.qti.stats.aec.so
-vendor/lib/camera/components/com.qti.stats.aecwrapper.so
-vendor/lib/camera/components/com.qti.stats.af.so
-vendor/lib/camera/components/com.qti.stats.afd.so
-vendor/lib/camera/components/com.qti.stats.afwrapper.so
-vendor/lib/camera/components/com.qti.stats.asd.so
-vendor/lib/camera/components/com.qti.stats.awb.so
-vendor/lib/camera/components/com.qti.stats.awbwrapper.so
-vendor/lib/camera/components/com.qti.stats.haf.so
-vendor/lib/camera/components/com.qti.stats.hafoverride.so
-vendor/lib/camera/components/com.qti.stats.pdlib.so
-vendor/lib/camera/components/com.qti.stats.pdlibsony.so
-vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
-vendor/lib/camera/components/com.qti.stats.tracker.so
-vendor/lib/camera/components/com.qtistatic.stats.aec.so
-vendor/lib/camera/components/com.qtistatic.stats.af.so
-vendor/lib/camera/components/com.qtistatic.stats.awb.so
-vendor/lib/camera/components/com.qtistatic.stats.pdlib.so
-vendor/lib/camera/components/libdepthmapwrapper.so
 
 # Camera-camerax
 vendor/lib/libcamxexternalformatutils.so
@@ -377,8 +349,6 @@ vendor/lib64/camera/components/com.xiaomi.node.misegment.so
 vendor/lib64/camera/components/com.xiaomi.node.tracker.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
 
 # Camera configs
 vendor/etc/camera/ai_enhance.dlc
@@ -435,23 +405,7 @@ vendor/etc/camera/reid_float.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/vidhance_calibration
-vendor/camera/fonts/FZMiaoWuJW.ttf
-vendor/camera/fonts/MFYueYuan-Regular.ttf
-vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf
-vendor/camera/fonts/MIUI_Time.ttf
 vendor/camera/model/model_front.dlc
-vendor/etc/camera/102_SummerDay.png
-vendor/etc/camera/103_Fantasy.png
-vendor/etc/camera/104_Meet.png
-vendor/etc/camera/105_WindSing.png
-vendor/etc/camera/106_Lost.png
-vendor/etc/camera/107_Central.png
-vendor/etc/camera/108_NorthernEurope.png
-vendor/etc/camera/109_Rome.png
-vendor/etc/camera/110_BlackGold.png
-vendor/etc/camera/111_GreenOrange.png
-vendor/etc/camera/112_CyberPunk.png
-vendor/etc/camera/113_BlackIce.png
 vendor/etc/camera/almalence_sr_params_tele_iso100.config
 vendor/etc/camera/xiaomi/dualbokehsnapshot.json
 vendor/etc/camera/xiaomi/frontbokehsnapshot.json
@@ -472,23 +426,8 @@ vendor/firmware/apollo_ois.coeff
 vendor/firmware/apollo_ois.prog
 
 # Camera provider
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib64/camera.device@1.0-impl.so
-vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-external-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-external-impl.so
-vendor/lib64/camera.device@3.5-impl.so
-vendor/lib64/camera.device@3.6-external-impl.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
-vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
+vendor/lib64/hw/camera.xiaomi.so
 
 # Camera sensors
 vendor/lib/libmmcamera_faceproc.so
@@ -500,115 +439,46 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
-# Display-Hardware
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
-vendor/lib/hw/gralloc.kona.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/hw/gralloc.kona.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdMetaData.so
-vendor/lib64/libqservice.so
-vendor/lib64/libsdmcore.so
+# CVP
+vendor/lib64/libcvp2.so
+vendor/lib64/libcvp2_hfi.so
+vendor/lib64/libcvp_common.so
+vendor/lib64/libcvpcpuRev_skel.so
 
-# Display
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib/hw/displayfeature.default.so
-vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-vendor/lib64/hw/displayfeature.default.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
+# Display calibration data
 vendor/etc/ltm_config_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_j3s_37_02_0a_dsc_video_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 
-# DRM
-vendor/bin/qseecomd
-vendor/lib/libsdedrm.so
-vendor/lib64/libsdedrm.so
-vendor/lib64/libStDrvInt.so
+# Fingerprint
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 
 # Firmware
-vendor/firmware/a615_zap.b00
-vendor/firmware/a615_zap.b01
-vendor/firmware/a615_zap.b02
-vendor/firmware/a615_zap.elf
-vendor/firmware/a615_zap.mdt
-vendor/firmware/a619_gmu.bin
-vendor/firmware/a620_zap.b00
-vendor/firmware/a620_zap.b01
-vendor/firmware/a620_zap.b02
-vendor/firmware/a620_zap.elf
-vendor/firmware/a620_zap.mdt
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a650_gmu.bin	
-vendor/firmware/a650_sqe.fw	
-vendor/firmware/a650_zap.b00	
-vendor/firmware/a650_zap.b01	
-vendor/firmware/a650_zap.b02	
-vendor/firmware/a650_zap.elf	
-vendor/firmware/a650_zap.mdt
-vendor/firmware/aw8697_haptic.bin	
-vendor/firmware/aw8697_rtp_1.bin
-vendor/firmware/ipa_uc.b00	
-vendor/firmware/ipa_uc.b01	
-vendor/firmware/ipa_uc.b02	
-vendor/firmware/ipa_uc.elf	
-vendor/firmware/ipa_uc.mdt
-vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z.bin
-vendor/firmware/cs35l41-dsp1-diag-z.wmfw
-vendor/firmware/cs35l41-dsp1-diag.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin
+vendor/firmware/rcv_voice_delta.txt 
+vendor/firmware/spk1_playback_delta.txt 
+vendor/firmware/spk1_voice_delta.txt 
+vendor/firmware/spk2_playback_delta.txt 
+vendor/firmware/spk2_voice_delta.txt 
+vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw 
+vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin 
+vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin 
+vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw 
+vendor/firmware/cs35l41-dsp1-diag-z.bin 
+vendor/firmware/cs35l41-dsp1-diag-z.wmfw 
+vendor/firmware/cs35l41-dsp1-diag.wmfw 
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin 
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin 
+vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin 
 vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw
 vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
-vendor/firmware/NT36xxx_MP_Setting_Criteria_593C.csv
-vendor/firmware/rcv_voice_delta.txt
-vendor/firmware/spk1_playback_delta.txt
-vendor/firmware/spk1_voice_delta.txt
-vendor/firmware/spk2_playback_delta.txt
-vendor/firmware/spk2_voice_delta.txt
-vendor/firmware/wigig/wigig.ini
-vendor/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
-vendor/firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin
-vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 
-# Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/lib64/hw/fingerprint.fpc.so
-
-# Lights
-vendor/lib/hw/lights.kona.so
-vendor/lib64/hw/lights.kona.so
-
-# Listen
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib/hw/sound_trigger.primary.kona.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs.so
-vendor/lib/libsmwrapper.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
+# NFC
+vendor/lib/vendor.nxp.hardware.nfc@1.0.so
+vendor/lib/vendor.nxp.hardware.nfc@1.1.so
+vendor/lib/vendor.nxp.hardware.nfc@2.0.so
+vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
+vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
+vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
 
 # OMX
 vendor/lib/libAlacSwDec.so
@@ -657,35 +527,45 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libswvdec.so
 
 # Sensors
+vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
+vendor/bin/init.qcom.sensors.sh
+vendor/bin/sensors.qti
+vendor/bin/sscrpcd
+vendor/etc/init/init.vendor.sensors.rc
+vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
+vendor/etc/init/vendor.sensors.qti.rc
+vendor/etc/init/vendor.sensors.sscrpcd.rc
+vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
+vendor/etc/sensors/hals.conf
+vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/libnotifyaudiohal.so
+vendor/lib64/libsensorcal.so
+vendor/lib64/libsensorslog.so
+vendor/lib64/libsns_device_mode_stub.so
+vendor/lib64/libsns_fastRPC_util.so
+vendor/lib64/libsns_low_lat_stream_stub.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
+vendor/lib64/libssc.so
+vendor/lib64/libssc.so
+vendor/lib64/libssc_default_listener.so
+vendor/lib64/libssc_default_listener.so
+vendor/lib64/libssccalapi.so
 vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
+vendor/lib64/sensors.mius.proximity.so
+vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
-
-# Sensor-calibrate	
-vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service	
-vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc	
-vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml	
-vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so	
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so	
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensors configs
+vendor/etc/sensors/sns_reg_config
 vendor/etc/sensors/config/sm8250_adux1050_1.json
 vendor/etc/sensors/config/sns_diag_filter.json
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/judge_calibrated_global.json
 vendor/etc/sensors/sensor_diag.cfg
-vendor/lib/libssc.so
-vendor/lib/libssccalapi.so
-vendor/lib/libssc_default_listener.so
-vendor/lib/sensors.mius.proximity.so
-vendor/lib/sensors.ssc.so
-vendor/lib/sensors.touch.so
-vendor/lib64/libssccalapi.so
-vendor/lib64/sensors.mius.proximity.so
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/adux1050_1.json
 vendor/etc/sensors/config/ak991x_dri_0.json
@@ -822,34 +702,9 @@ vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_diag.cfg	
 vendor/etc/sensors/sns_reg_config	
-
-# Sensors
-vendor/etc/elliptic_sensor.xml	
-vendor/lib/libssc.so	
-vendor/lib/libssccalapi.so	
-vendor/lib/libssc_default_listener.so	
-vendor/lib/sensors.mius.proximity.so	
-vendor/lib/sensors.ssc.so	
-vendor/lib/sensors.touch.so	
-vendor/lib64/libnotifyaudiohal.so	
-vendor/lib64/libssc.so	
-vendor/lib64/libssccalapi.so	
-vendor/lib64/libssc_default_listener.so	
-vendor/lib64/sensors.elliptic.so	
-vendor/lib64/sensors.mius.proximity.so	
-vendor/lib64/sensors.ssc.so	
-vendor/lib64/sensors.touch.so	
-
-# SSR	
-vendor/bin/ssr_diag	
-vendor/bin/ssr_setup	
-vendor/bin/subsystem_ramdump	
-vendor/lib/libsubsystem_control.so	
-vendor/lib64/libsubsystem_control.so
+vendor/etc/elliptic_sensor.xml
 
 # Thermal	
-vendor/etc/thermal-4k.conf	
-vendor/etc/thermal-8k.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
 vendor/etc/thermal-engine.conf
@@ -859,3 +714,7 @@ vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
+
+# Vibrator firmware
+vendor/firmware/aw8697_haptic.bin
+vendor/firmware/aw8697_rtp_1.bin
