@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_lmi.mk
+    $(LOCAL_DIR)/nad_apollopro.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_lmi-user \
-    nad_lmi-userdebug \
-    nad_lmi-eng
+    nad_apollopro-user \
+    nad_apollopro-userdebug \
+    nad_apollopro-eng

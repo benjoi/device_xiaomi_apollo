@@ -11,6 +11,18 @@ qcom.hw.aac.encoder=true
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac
+persist.vendor.btstack.enable.splita2dp=true
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
+vendor.bluetooth.soc=cherokee
+
+# CNE and DPM
+persist.vendor.cne.feature=1
+persist.vendor.dpm.feature=1
+persist.vendor.dpm.loglevel=0
+persist.vendor.dpm.nsrm.bkg.evt=3955
 
 # Camera
 camera.disable_zsl_mode=true
@@ -20,7 +32,7 @@ debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 persist.vendor.color.matrix=2
-ro.vendor.display.default_fps=90
+ro.vendor.display.default_fps=144
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
@@ -33,10 +45,10 @@ ro.displayfeature.histogram.enable
 ro.hist.brightness.threshold=7 
 vendor.display.use_smooth_motion=1
 ro.vendor.dfps.enable=true
-
-# CNE
-persist.vendor.cne.feature=1
-
+persist.displayfeature.dc_backlight.threshold=610
+persist.displayfeature.dc_backlight.enable=false
+ro.displayfeature.histogram.enable=true
+    
 #DALVIK
 dalvik.vm.heapsize=36m
 dev.pm.dyn_samplingrate=1
@@ -115,6 +127,8 @@ config.disable_rtt=true
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 debug.stagefright.ccodec=1
+debug.sf.disable_backpressure=1
+debug.cpurend.vsync=false
 fbe.metadata.wrappedkey=true
 media.aac_51_output_enabled=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml

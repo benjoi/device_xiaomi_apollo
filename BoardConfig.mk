@@ -6,9 +6,7 @@
 
 BUILD_BROKEN_DUP_RULES := true
 
-DEVICE_PATH := device/xiaomi/lmi
-
-TARGET_USES_PREBUILT_KERNEL := true
+DEVICE_PATH := device/xiaomi/apollo
 
 # Architecture
 TARGET_ARCH := arm64
@@ -31,7 +29,7 @@ TARGET_USES_64_BIT_BINDER := true
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lmi
+TARGET_OTA_ASSERT_DEVICE := apollo apollopro
 TARGET_NO_BOOTLOADER := true
 
 # Bootloader
@@ -90,8 +88,8 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lmi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_lmi
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_apollopro
+TARGET_RECOVERY_DEVICE_MODULES := libinit_apollopro
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
@@ -123,9 +121,9 @@ ifeq ($(TARGET_USES_PREBUILT_KERNEL), true)
   BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt
   BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 else
-  TARGET_KERNEL_CONFIG := vendor/lmi_user_defconfig
+  TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
   TARGET_KERNEL_CLANG_COMPILE := true
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/lmi
+  TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 endif
 
 # Metadata
@@ -176,7 +174,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
 # Sepolicy
-SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
