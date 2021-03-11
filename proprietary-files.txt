@@ -1,17 +1,4 @@
-# Camera (popup sound effects)
-media/audio/ui/popup_cangmen_down.ogg
-media/audio/ui/popup_cangmen_up.ogg
-media/audio/ui/popup_chilun_down.ogg
-media/audio/ui/popup_chilun_up.ogg
-media/audio/ui/popup_jijia_down.ogg
-media/audio/ui/popup_jijia_up.ogg
-media/audio/ui/popup_mofa_down.ogg
-media/audio/ui/popup_mofa_up.ogg
-media/audio/ui/popup_muqin_down.ogg
-media/audio/ui/popup_muqin_up.ogg
-media/audio/ui/popup_yingyan_down.ogg
-media/audio/ui/popup_yingyan_up.ogg
-
+# from Xiaomi/apollopro_global/apollo:10/QKQ1.200419.002/V12.0.11.0.QJDMIXM:user/release-keys
 -framework/WfdCommon.jar
 -lib/libantradio.so
 -lib64/libantradio.so
@@ -363,4 +350,3 @@ vendor/lib/modules/rdbg.ko:product/vendor_overlay/29/lib/modules/rdbg.ko
 vendor/lib/modules/rmnet_perf.ko:product/vendor_overlay/29/lib/modules/rmnet_perf.ko
 vendor/lib/modules/rmnet_shs.ko:product/vendor_overlay/29/lib/modules/rmnet_shs.ko
 vendor/lib/modules/sla.ko:product/vendor_overlay/29/lib/modules/sla.ko
-vendor/lib/modules/tspp.ko:product/vendor_overlay/29/lib/modules/tspp.ko
