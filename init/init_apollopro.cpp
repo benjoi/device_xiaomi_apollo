@@ -48,17 +48,17 @@ constexpr const char *RO_PROP_SOURCES[] = {
 
 constexpr const char *BRANDS[] = {
     "Redmi",
-    "POCO",
+    "Xiaomi",
 };
 
 constexpr const char *PRODUCTS[] = {
-    "lmi",
-    "lmi",
+    "apollopro",
+    "apollopro",
 };
 
 constexpr const char *DEVICES[] = {
-    "Redmi K30 Pro",
-    "POCO F2 Pro",
+    "Redmi K30S",
+    "Mi 10T Pro",
 };
 
 constexpr const char *BUILD_DESCRIPTION[] = {
