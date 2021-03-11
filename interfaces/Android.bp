@@ -1,6 +1,6 @@
 hidl_package_root {
     name: "vendor.xiaomi",
-    path: "device/xiaomi/lmi/interfaces",
+    path: "device/xiaomi/apollopro/interfaces",
 }
 
 hidl_package_root {

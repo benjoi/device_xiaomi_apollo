@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=lmi
+DEVICE=apollopro
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2020
