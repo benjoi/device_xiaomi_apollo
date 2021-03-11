@@ -6,7 +6,7 @@
 
 BUILD_BROKEN_DUP_RULES := true
 
-DEVICE_PATH := device/xiaomi/apollo
+DEVICE_PATH := device/xiaomi/apollopro
 
 # Architecture
 TARGET_ARCH := arm64
