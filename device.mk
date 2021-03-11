@@ -143,9 +143,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.lmi
 
-# Properties
--include $(LOCAL_PATH)/system_prop.mk
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
