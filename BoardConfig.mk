@@ -21,8 +21,7 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
--include device/xiaomi/apollo-kernel/BoardConfigKernel.mk
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/vendor.prop
